@@ -1,0 +1,19 @@
+While 1Ù
+For 1ãC To 3Ù
+GetkeyãAÙ
+If AÈ0Ù
+Then Ù
+For 1ãE To 15Ù
+1232431À3Á651232431Ù
+NextÙ
+IfEndÙ
+'key va a 0 si nada se ha oprimidoÙ
+If A=43 Or A=44 Or A=53 Or A=33 Or A=73Ù
+Then Ù
+A=73×BãUÙ
+AÈB And AÈR×AãBÙ
+Prog " TECLAS"Ù
+IfEndÙ
+NextÙ
+Prog " TECLAS"Ù
+WhileEnd

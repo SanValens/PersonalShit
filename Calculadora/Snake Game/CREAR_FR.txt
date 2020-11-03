@@ -1,0 +1,25 @@
+Lbl 1Ù
+'Ubicamos fruta con randomÙ
+RanInt#(1,21)ãSÙ
+RanInt#(1,7)ãTÙ
+'RReposicionar FrutaÙ
+'   En interfaz:Ù
+S<4 And T=1×Goto 1Ù
+'Mismo lugar que antes o el lugar de la cabezaÙ
+If SÊX-3 And SÉX+3Ù
+Then If TÊY-3 And TÉY+3Ù
+Then Goto 1Ù
+IfEndÙ
+IfEndÙ
+'Para generar las bombasÙ
+If Frac (DÁ3)=0 Or D=0Ù
+Then Prog "BOMBS"Ù
+IfEndÙ
+Ù
+'Si se genera sobre una bombaÙ
+S=H And T=I×Goto 1Ù
+S=J And T=K×Goto 1Ù
+S=L And T=M×Goto 1Ù
+Ù
+'Ubicamos finalemente las cosasÙ
+Locate S,T,"#E6A0"Ù

@@ -1,0 +1,11 @@
+"VALUE OF A"?ãAÙ
+"VALUE OF B"?ãBÙ
+"VALUE OF C"?ãCÙ
+(-B+Ë(B’-4AC))Á(2A)ãXÙ
+(-B-Ë(B’-4AC))Á(2A)ãYÙ
+ClrTextÙ
+Locate 1,1,"POSITIVE ROOT:"Ù
+Locate 1,2,XÙ
+Locate 1,3,"NEGATIVE ROOT:"Ù
+Locate 1,4,YÙ
+Stop

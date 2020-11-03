@@ -1,0 +1,29 @@
+'Son 3 bombas, lo hacemos 3 vecesÙ
+ClrTextÙ
+'Como acabo de limpiar, imprimo lo escencialÙ
+Locate X,Y,"#E6A4"Ù
+Locate P,Q,"#E6A7"Ù
+Locate V,W,"#E6A7"Ù
+Ù
+Locate 1,1,"P:"Ù
+Locate 3,1,DÙ
+Ù
+Lbl 1Ù
+'BOMBA 1Ù
+RanInt#(1,21)ãHÙ
+RanInt#(1,7)ãIÙ
+Lbl 2Ù
+'BOMBA 2Ù
+RanInt#(1,21)ãJÙ
+RanInt#(1,7)ãKÙ
+Lbl 3Ù
+'BOMBA 3Ù
+RanInt#(1,21)ãLÙ
+RanInt#(1,7)ãMÙ
+Ù
+H<4 And I=1×Goto 1Ù
+J<4 And K=1×Goto 2Ù
+L<4 And M=1×Goto 3Ù
+Locate H,I,"#E6A9"Ù
+Locate J,K,"#E6A9"Ù
+Locate L,M,"#E6A9"Ù

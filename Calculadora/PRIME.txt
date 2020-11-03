@@ -1,0 +1,8 @@
+Filename: PRIME
+Lbl 1Ù
+ClrTextÙ
+"Which number would   you like to check"?ãNÙ
+If NÉ0 Or Frac NÈ0Ù
+Then "The number is not    valid"Ø
+Goto 1Ù
+IfEnd

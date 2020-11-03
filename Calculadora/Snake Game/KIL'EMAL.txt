@@ -1,0 +1,3 @@
+ClrTextÙ
+Locate 1,1,"Perdiste amiguito"Ù
+Stop

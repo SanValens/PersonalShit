@@ -1,0 +1,17 @@
+Lbl 4Ù
+ClrTextÙ
+Menu "TIPO","SIMPLE",1,"INVERSA",2,"SALIR",3Ù
+ClrTextÙ
+Lbl 1Ù
+"PRIMER NUMERO"?ãXÙ
+"SEGUNDO NUMERO"?ãYÙ
+(X+Y)Á2ãRÙ
+RØ
+Goto 4Ù
+Lbl 2Ù
+"UN LADO"?ãXÙ
+"SEGMENTO MEDIO"?ãYÙ
+(YÀ2)-XãRÙ
+RØ
+Goto 4Ù
+Lbl 3:StopÙ

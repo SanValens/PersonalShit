@@ -1,0 +1,21 @@
+ClrTextÙ
+'Va a inciar moviendose a la derecha:Ù
+33ãBÙ
+'El marcador en 0:Ù
+0ãDÙ
+'Create the snakeÙ
+2ãXÙ
+4ãYÙ
+1ãVÙ
+4ãWÙ
+1ãPÙ
+5ãQÙ
+'Creamos Personaje e interfazÙ
+Locate P,Q,"#E6A7"Ù
+Locate V,W,"#E6A7"Ù
+Locate X,Y,"#E6A4"Ù
+Locate 1,1,"P:"Ù
+Locate 3,1,DÙ
+Prog "CREAR FR"Ù
+'Delayer con addEventListenerÙ
+Prog "DELAYER"Ù

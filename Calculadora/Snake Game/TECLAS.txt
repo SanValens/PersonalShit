@@ -1,0 +1,54 @@
+'Controla el movimiento entero y lo imprime tambien'Use el poder?Ù
+If B=73Ù
+Then Ù
+D-2ãDÙ
+DÉ-5×Prog "KIL'EMAL"Ù
+Locate 3,1,DÙ
+Locate S,T," "Ù
+Prog "CREAR FR"Ù
+UãBÙ
+ReturnÙ
+IfEndÙ
+'Mover la cola y eliminar lo ultimoÙ
+Locate P,Q," "Ù
+VãPÙ
+WãQÙ
+XãVÙ
+YãWÙ
+'Entonces que se movio?Ù
+B=43×Y+1ãYÙ
+B=43×44ãRÙ
+B=44×Y-1ãYÙ
+B=44×43ãRÙ
+B=33×X+1ãXÙ
+B=33×53ãRÙ
+B=53×X-1ãXÙ
+B=53×33ãRÙ
+'Revisar que no haya cogido una bomba:Ù
+Prog "CHECKER"Ù
+Ù
+'Verificar LimiteÙ
+X=0×Prog "KIL'EMAL"Ù
+Y=0×Prog "KIL'EMAL"Ù
+X=22×Prog "KIL'EMAL"Ù
+Y=8×Prog "KIL'EMAL"Ù
+Ù
+'O dentro del marcadorÙ
+If X<4 And Y=1Ù
+Then Prog "KIL'EMAL"Ù
+IfEndÙ
+'Moverse yaÙ
+Ù
+Locate P,Q,"#E6A7"Ù
+Locate V,W,"#E6A7"Ù
+Locate X,Y,"#E6A4"Ù
+'Sera que ya comi?Ù
+If X=S And Y=TÙ
+Then Ù
+D+1ãDÙ
+'Cambiar puntajeÙ
+Locate 4,1," "Ù
+Locate 3,1,DÙ
+'Crear comidaÙ
+Prog "CREAR FR"Ù
+IfEnd

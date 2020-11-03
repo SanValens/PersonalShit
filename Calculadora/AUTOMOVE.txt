@@ -1,0 +1,12 @@
+5542542ãRÙ
+1ãBÙ
+While 1Ù
+For 1ãC To 12Ù
+GetkeyãAÙ
+R=A×BreakÙ
+NextÙ
+Locate B,4," "Ù
+1+BãBÙ
+B>21×1ãBÙ
+Locate B,4,"#E6A4"Ù
+WhileEnd

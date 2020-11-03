@@ -1,0 +1,4 @@
+X=H And Y=I×Prog "KIL'EMAL"Ù
+X=J And Y=K×Prog "KIL'EMAL"Ù
+X=L And Y=M×Prog "KIL'EMAL"Ù
+Return
